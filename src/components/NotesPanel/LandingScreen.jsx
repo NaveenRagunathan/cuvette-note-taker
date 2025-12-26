@@ -4,7 +4,7 @@ function LandingScreen() {
     return (
         <div className={styles.landing}>
             <div className={styles.illustration}>
-                <img src="/landing-illustration.png" alt="Pocket Notes Illustration" />
+                <img src={`${import.meta.env.BASE_URL}landing-illustration.png`} alt="Pocket Notes Illustration" />
             </div>
 
             <h1 className={styles.title}>Pocket Notes</h1>
