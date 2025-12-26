@@ -1,0 +1,20 @@
+.noteCard {
+    background-color: var(--color-white);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-black);
+    margin-bottom: 12px;
+    word-wrap: break-word;
+}
+
+.timestamp {
+    font-size: 14px;
+    color: var(--color-grey-dark);
+}

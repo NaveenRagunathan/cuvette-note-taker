@@ -1,0 +1,40 @@
+.groupItem {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    margin: 4px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.groupItem:hover {
+    background-color: #f9f9f9;
+}
+
+.groupItem.selected {
+    background-color: var(--color-grey-light);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-white);
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-black);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
